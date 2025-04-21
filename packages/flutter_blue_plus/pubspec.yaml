@@ -10,7 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_blue_plus_android: ^4.0.0
+#  flutter_blue_plus_android: ^4.0.0
+  flutter_blue_plus_android:
+    git:
+      url: https://github.com/GM-Network/flutter_blue_plus.git
+      ref: 1c20967cc8f14adc9b560e657074150de07d14e8
+
   flutter_blue_plus_darwin: ^4.0.0
   flutter_blue_plus_linux: ^3.0.0
   flutter_blue_plus_platform_interface: ^4.0.0
